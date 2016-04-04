@@ -1,0 +1,27 @@
+buildscript {
+    ext.kotlin_version = '1.0.1'
+
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath 'com.netflix.nebula:gradle-extra-configurations-plugin:3.+'
+    }
+}
+
+apply plugin: 'kotlin'
+apply plugin: 'nebula.optional-base'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version", optional
+    compile 'org.springframework.hateoas:spring-hateoas:latest.release', optional
+
+    testCompile 'junit:junit:4.+'
+    testCompile 'org.assertj:assertj-core:3.+'
+}
