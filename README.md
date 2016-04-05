@@ -2,6 +2,12 @@
 Spring Kotlin extensions is a repository that contains Kotlin extensions, documentation,
 and any helpful assets that can help to build Spring + Kotlin applications. 
 
+This project has been created after [this discussion](https://github.com/spring-projects/spring-boot/issues/5537) on Spring Boot issue tracker.
+
+You will find  more information about using Spring Boot + Kotlin in these 2 blog posts:
+ - [Developing Spring Boot applications with Kotlin](https://spring.io/blog/2016/02/15/developing-spring-boot-applications-with-kotlin)
+ - [A Geospatial Messenger with Kotlin, Spring Boot and PostgreSQL](https://spring.io/blog/2016/03/20/a-geospatial-messenger-with-kotlin-spring-boot-and-postgresql)
+
 ## Sign the Contributor License Agreement
 Before we accept a non-trivial patch or pull request we will need you to sign the
 [contributor's agreement](https://support.springsource.com/spring_committer_signup).
